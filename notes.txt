@@ -1,0 +1,89 @@
+API => APPLICATION PROGRAMMING INTERFACE.
+
+
+
+API - api makes communication between two computer possible.
+
+Endpoint - endpoints are also called URL (uniform resource locator ). It is the end of a point .
+
+URL => Uniform resource locator
+URI => Uniform resource identifier
+
+===== 
+Two systems of programming are 
+
+1. Synchronous programming 
+2. Asynchronous programming 
+
+    => Synchronous programming is a system of programming that follows a fixed set of sequence .
+
+    => Asynchronous programming allows a user to go about his business in an application
+
+
+
+========================
+
+Axios and promises 
+
+========================
+
+---------> Axios is a promise based HTTP client for node js and browser . it makes it easy to send async request to endpoints . 
+    Consumming of APIs can be done with and without axios. 
+    CRUD => 
+        create -> POST
+        read -> GET
+        update  -> Fetch 
+        delete -> Delete
+
+
+
+--------->  Promises is a special javascript object that serves an intermidiary between a producing code and a consuming code.
+    promises takes in two parameters (resolve and reject).
+
+
+
+READ ABOUT 
+1. status code in request and response communication
+
+
+
+
+
+JSON => Javascript Object Notation 
+
+
+
+
+Whats HTTP -> (HyperText Transfer Protocol ). It is used to transfer data over the web . It is part of the internet protocol suite and defines commands and services used for transmitting web-page data. HTTP uses a server-client model.
+
+    ======== REQUESTS 
+     1. Web request -> http that can only run on the web . e.g -> 
+
+     2. Api request -> 
+
+
+
+Whats API -> An API  is a set of programming code that enables data transmission between one software product and another .
+
+=============================
+WEB 
+ANDROID 
+IOS
+IOT -> Internet Of Things 
+======================
+
+========== TYPES OF HTTP REQUESTS ================
+1. Post  ->  Post requests are used to send data to the API server to create or update a resource. The data sent to the server is stored in the request body of the http request. 
+
+2. Get  -> Get request are the most common and widely used meghods in APIs and websites. Simply put, the GET method is used to retrieve data from a server at the specified source. For example, say you have an API with a / users endpoint. Making a request to that endpoint should retun a list of all available users. 
+
+3. Patch -> A patch request is a lesser know HTTP method. The difference with patch is that you only apply partial modifications to the resource . The difference between PATCH and PUT is that PATCH is request non-idemppotent(like a POST request).
+
+4. Put -> Similar to POST, put requests are used to send data to the API to update or create a resource. The difference is that PUT requests are idempotent. That is calling the same PUT request multiple times will always produce the same result.
+
+5. Delete -> The DELETE method is exactly as it souncs: delete the resource at the specified URL. This method is one of the most common RESTful APIs so it's good to know how it works. +
+
+
+======
+READ ABOUT => 
+1. Http status codes 
